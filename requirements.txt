@@ -1,0 +1,18 @@
+# Entorno usado: Python 3.12. Instalar con: pip install -r requirements.txt
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+scikit-learn
+pyarrow
+networkx
+# pymongo fijado: >=4.11 rompe bulk_write con mongomock (usado como fallback en NB-02)
+pymongo==4.9.2
+mongomock==4.3.0
+certifi
+# Ejecución / construcción de notebooks
+jupyterlab
+ipykernel
+nbclient
+nbconvert
